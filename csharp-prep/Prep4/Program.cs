@@ -51,7 +51,7 @@ class Program
         Console.WriteLine($"The largest number is: {max}");
         Console.WriteLine($"The smallest positive number is: {min}");
         Console.WriteLine("");
-        Console.WriteLine("The sorte list is:");
+        Console.WriteLine("The sorted list is:");
 
         int[] sorting = numbers.ToArray();
         Array.Sort(sorting);
